@@ -20,6 +20,23 @@ struct PC: Identifiable, Codable {
     var replacedBy: String
     var status: String
     
+    func getPCImageName() -> String {
+        
+        if (self.pcType == "Dell Laptop" || self.pcType == "MacBook" || self.pcType == "HP Laptop") {
+            return "laptopcomputer"
+        }
+        else if (self.pcType == "iMac") {
+            return "desktopcomputer"
+        }
+        else if (self.pcType == "Dell OptiPlex" || self.pcType == "HP EliteDesk") {
+            return "tv.and.mediabox"
+        }
+        else {
+            return "display"
+        }
+        
+    }
+    
     func statusIcon() -> String {
         
         if self.status == "Active" {
