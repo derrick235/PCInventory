@@ -29,8 +29,8 @@ struct PCInventoryView: View {
                     ForEach(pcManager.pcs, id: \.id) { pc in
                         
                         NavigationLink {
-                            //PCDetailViewFirestore(pc: pc)
-                                //.environmentObject(pcManager)
+                            PCDetailView(pc: pc)
+                                .environmentObject(pcManager)
                         } label: {
                             PCView(pc: pc, inNavigation: true)
                         }
