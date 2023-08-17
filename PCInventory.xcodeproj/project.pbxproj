@@ -15,6 +15,7 @@
 		055BDA032A8DB728009CC0B0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 055BDA022A8DB728009CC0B0 /* FirebaseFirestore */; };
 		055BDA052A8DB728009CC0B0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 055BDA042A8DB728009CC0B0 /* FirebaseFirestoreSwift */; };
 		055BDA082A8DB822009CC0B0 /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055BDA072A8DB822009CC0B0 /* PC.swift */; };
+		05AEE73D2A8E9DAC00F9DAD5 /* PCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		055BD9F82A8DB4FC009CC0B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055BD9FF2A8DB68C009CC0B0 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		055BDA072A8DB822009CC0B0 /* PC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
+		05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				055BDA072A8DB822009CC0B0 /* PC.swift */,
+				05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05AEE73D2A8E9DAC00F9DAD5 /* PCManager.swift in Sources */,
 				055BD9F42A8DB4FC009CC0B0 /* ContentView.swift in Sources */,
 				055BD9F22A8DB4FC009CC0B0 /* PCInventoryApp.swift in Sources */,
 				055BDA082A8DB822009CC0B0 /* PC.swift in Sources */,
