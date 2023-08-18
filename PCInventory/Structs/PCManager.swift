@@ -132,10 +132,14 @@ class PCManager: ObservableObject {
         
         do {
             
-            let newPC = PC(id: "\(UUID())", firstName: firstName, lastName: lastName, isReplaced: isReplaced, pcLocation: pcLocation, pcSN: pcSN, pcType: pcType, replacedBy: replacedBy, status: status)
+            // make a new document
+            let ref = db.collection("pcs").document()
             
-            // attempt to create a new document and set the data with newPC
-            try db.collection("pcs").document().setData(from: newPC)
+            // make a new PC
+            let newPC = PC(id: ref.documentID, firstName: firstName, lastName: lastName, isReplaced: isReplaced, pcLocation: pcLocation, pcSN: pcSN, pcType: pcType, replacedBy: replacedBy, status: status)
+            
+            // attempt to set the data with newPC
+            try ref.setData(from: newPC)
             
         } catch {
             

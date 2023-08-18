@@ -59,6 +59,6 @@ struct AddUserView: View {
             }.background(NavigationLink(destination: AddSNView(firstName: firstName, lastName: lastName, showSheet: $showSheet).environmentObject(PCManager())
                                         , isActive: $moveOn) {})
             
-        }
+        }.presentationDragIndicator(.visible) // handle on top of the sheet
     }
 }

@@ -93,6 +93,7 @@ struct AddPCReplaceView: View {
                 }
             }
         }
+        .presentationDragIndicator(.visible) // handle on top of the sheet
     }
 }
 

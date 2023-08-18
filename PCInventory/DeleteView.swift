@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DeleteView: View {
-    @State var gradientAnimation: Bool = false
     @Binding var sheetOpen: Bool
     @State var docID: String
     @State var pc: PC
@@ -37,6 +36,7 @@ struct DeleteView: View {
                     Button {
                         
                         pcManager.deletePC(docID: docID)
+                        sheetOpen.toggle()
                         
                     } label: {
                         ButtonLabel(buttonColor: Color.red, text: "Delete")

@@ -57,7 +57,8 @@ struct AddSNView: View {
             }.background(NavigationLink(destination: AddPCTypeView(firstName: firstName, lastName: lastName, pcSN: pcSN, showSheet: $showSheet).environmentObject(PCManager())
                                         , isActive: $moveOn) {})
             
-        }.toolbar {
+        }.presentationDragIndicator(.visible) // handle on top of the sheet
+        .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
                     showSheet.toggle()

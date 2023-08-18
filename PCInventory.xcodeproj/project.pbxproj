@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051CF8782A8FFB1000316511 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CF8772A8FFB1000316511 /* UserProfile.swift */; };
+		051CF87A2A8FFBA400316511 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CF8792A8FFBA400316511 /* UserView.swift */; };
+		051CF87C2A8FFC1400316511 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CF87B2A8FFC1400316511 /* UserListView.swift */; };
+		051CF87E2A8FFCE000316511 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CF87D2A8FFCE000316511 /* UserDetailView.swift */; };
 		055BD9F22A8DB4FC009CC0B0 /* PCInventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055BD9F12A8DB4FC009CC0B0 /* PCInventoryApp.swift */; };
 		055BD9F42A8DB4FC009CC0B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055BD9F32A8DB4FC009CC0B0 /* ContentView.swift */; };
 		055BD9F62A8DB4FC009CC0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055BD9F52A8DB4FC009CC0B0 /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051CF8772A8FFB1000316511 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		051CF8792A8FFBA400316511 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		051CF87B2A8FFC1400316511 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		051CF87D2A8FFCE000316511 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		055BD9EE2A8DB4FC009CC0B0 /* PCInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055BD9F12A8DB4FC009CC0B0 /* PCInventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCInventoryApp.swift; sourceTree = "<group>"; };
 		055BD9F32A8DB4FC009CC0B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +135,8 @@
 				05AEE73E2A8E9F8A00F9DAD5 /* PCInventoryView.swift */,
 				05AEE75B2A8EBE7600F9DAD5 /* PCDetailView.swift */,
 				05AEE75D2A8EBEBC00F9DAD5 /* DeleteView.swift */,
+				051CF87B2A8FFC1400316511 /* UserListView.swift */,
+				051CF87D2A8FFCE000316511 /* UserDetailView.swift */,
 				055BD9F52A8DB4FC009CC0B0 /* Assets.xcassets */,
 				05AEE7672A8EC3C400F9DAD5 /* AddPC */,
 				05AEE7412A8E9FBB00F9DAD5 /* MiniViews */,
@@ -176,6 +186,7 @@
 				05AEE7422A8E9FDD00F9DAD5 /* StatView.swift */,
 				05AEE7532A8EB68900F9DAD5 /* PCView.swift */,
 				05AEE7572A8EB99900F9DAD5 /* IconTextView.swift */,
+				051CF8772A8FFB1000316511 /* UserProfile.swift */,
 				05AEE7632A8EC06300F9DAD5 /* ButtonLabel.swift */,
 				05AEE7592A8EBD4B00F9DAD5 /* DetailItem.swift */,
 				05AEE75F2A8EBF1500F9DAD5 /* PCSheetHeader.swift */,
@@ -183,6 +194,7 @@
 				05AEE7612A8EBF3300F9DAD5 /* CloseButton.swift */,
 				05AEE7652A8EC18E00F9DAD5 /* HeaderCaption.swift */,
 				05AEE76C2A8EC52100F9DAD5 /* TextFieldView.swift */,
+				051CF8792A8FFBA400316511 /* UserView.swift */,
 			);
 			path = MiniViews;
 			sourceTree = "<group>";
@@ -288,17 +300,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051CF87E2A8FFCE000316511 /* UserDetailView.swift in Sources */,
 				05AEE7432A8E9FDD00F9DAD5 /* StatView.swift in Sources */,
 				05AEE73D2A8E9DAC00F9DAD5 /* PCManager.swift in Sources */,
+				051CF8782A8FFB1000316511 /* UserProfile.swift in Sources */,
 				05AEE76D2A8EC52100F9DAD5 /* TextFieldView.swift in Sources */,
 				0570B4422A8F3E2700E8E40F /* PCType.swift in Sources */,
 				05AEE74E2A8EA2C400F9DAD5 /* GradientView.swift in Sources */,
 				05AEE7692A8EC3CE00F9DAD5 /* GetStartedView.swift in Sources */,
+				051CF87A2A8FFBA400316511 /* UserView.swift in Sources */,
 				05AEE7462A8EA02500F9DAD5 /* Date.swift in Sources */,
 				0570B4442A8F3ECA00E8E40F /* AddPCTypeView.swift in Sources */,
 				05AEE76B2A8EC45400F9DAD5 /* AddUserView.swift in Sources */,
 				0570B4402A8ED6C100E8E40F /* PCSheetHeaderAdd.swift in Sources */,
 				05AEE73F2A8E9F8A00F9DAD5 /* PCInventoryView.swift in Sources */,
+				051CF87C2A8FFC1400316511 /* UserListView.swift in Sources */,
 				0570B44C2A8F41FC00E8E40F /* Status.swift in Sources */,
 				0570B44E2A8F42AA00E8E40F /* AddPCReplaceView.swift in Sources */,
 				05AEE74C2A8EA25300F9DAD5 /* NavBarView.swift in Sources */,

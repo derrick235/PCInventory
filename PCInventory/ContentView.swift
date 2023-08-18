@@ -23,6 +23,12 @@ struct ContentView: View {
                     Text("Add")
                 }
             
+            UserListView()
+                .tabItem {
+                    Image(systemName: "person.2.fill")
+                    Text("Users")
+                }
+            
         }
     }
 }

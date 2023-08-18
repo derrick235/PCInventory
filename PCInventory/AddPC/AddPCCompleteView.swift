@@ -13,27 +13,35 @@ struct AddPCCompleteView: View {
     
     var body: some View {
         NavigationStack {
-            
-            PCSheetHeaderAdd()
-            
-            Spacer()
-            
-            HeaderCaption(imageName: "checkmark.circle", header: "And done.", caption: "Your new PC has been added.")
-            
-            Spacer()
-            
-            NavigationLink {
-                AddUserView(showSheet: $showSheet)
-            } label: {
-                ButtonLabel(text: "Add Another PC")
-                    .padding(.bottom, 10)
+           
+            ZStack {
+                
+                GradientView()
+                
+                VStack {
+                    PCSheetHeaderAdd()
+                    
+                    Spacer()
+                    
+                    HeaderCaption(imageName: "checkmark.circle", header: "And done.", caption: "Your new PC has been added.")
+                    
+                    Spacer()
+                    
+                    NavigationLink {
+                        AddUserView(showSheet: $showSheet)
+                    } label: {
+                        ButtonLabel(text: "Add Another PC")
+                            .padding(.bottom, 10)
+                    }
+                    Text("Swipe down to dismiss")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black.opacity(0.5))
+                        .padding(.bottom, 80)
+                }
+                
             }
-            Text("Swipe down to dismiss")
-                .fontWeight(.bold)
-                .foregroundColor(Color.black.opacity(0.5))
-                .padding(.bottom, 80)
-            
-        }.toolbar {
+        }.presentationDragIndicator(.visible) // handle on top of the sheet
+        .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
                     showSheet.toggle()

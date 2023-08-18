@@ -64,6 +64,7 @@ struct AddPCStatusView: View {
                 }
             }
         }
+        .presentationDragIndicator(.visible) // handle on top of the sheet
     }
 }
 
