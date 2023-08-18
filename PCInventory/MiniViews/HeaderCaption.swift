@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// view for an image, followed by a header and then a caption
+
 struct HeaderCaption: View {
     
     @State var imageName: String

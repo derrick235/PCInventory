@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        PCInventoryView()
+        TabView {
+            
+            PCInventoryView()
+                .tabItem {
+                    Image(systemName: "display.2")
+                    Text("PCs")
+                }
+            
+            GetStartedView()
+                .tabItem {
+                    Image(systemName: "externaldrive.fill.badge.plus")
+                    Text("Add")
+                }
+            
+        }
     }
 }
 

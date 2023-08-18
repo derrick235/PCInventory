@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ButtonLabel: View {
-    @State var buttonColor:Color = Color.accentColor
+    @State var buttonColor:Color = Color.blue
     @State var textColor: Color = Color.white
     @State var text:String = "OK"
     

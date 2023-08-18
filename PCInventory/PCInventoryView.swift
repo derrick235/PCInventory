@@ -12,7 +12,7 @@ struct PCInventoryView: View {
     @StateObject var pcManager = PCManager()
     
     var body: some View {
-        NavBarContainerNavigationView(navTitle: "PC Inventory") {
+        NavBarContainerNavigationView(navTitle: "PCs") {
             List {
                 
                 HStack {

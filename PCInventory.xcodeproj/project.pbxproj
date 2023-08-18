@@ -14,6 +14,16 @@
 		055BDA032A8DB728009CC0B0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 055BDA022A8DB728009CC0B0 /* FirebaseFirestore */; };
 		055BDA052A8DB728009CC0B0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 055BDA042A8DB728009CC0B0 /* FirebaseFirestoreSwift */; };
 		055BDA082A8DB822009CC0B0 /* PC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055BDA072A8DB822009CC0B0 /* PC.swift */; };
+		0570B4382A8EC9C300E8E40F /* AddSNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4372A8EC9C300E8E40F /* AddSNView.swift */; };
+		0570B4402A8ED6C100E8E40F /* PCSheetHeaderAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B43F2A8ED6C100E8E40F /* PCSheetHeaderAdd.swift */; };
+		0570B4422A8F3E2700E8E40F /* PCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4412A8F3E2700E8E40F /* PCType.swift */; };
+		0570B4442A8F3ECA00E8E40F /* AddPCTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4432A8F3ECA00E8E40F /* AddPCTypeView.swift */; };
+		0570B4462A8F3FF700E8E40F /* AddPCLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4452A8F3FF700E8E40F /* AddPCLocationView.swift */; };
+		0570B4482A8F407200E8E40F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4472A8F407200E8E40F /* Location.swift */; };
+		0570B44A2A8F419900E8E40F /* AddPCStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B4492A8F419900E8E40F /* AddPCStatusView.swift */; };
+		0570B44C2A8F41FC00E8E40F /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B44B2A8F41FC00E8E40F /* Status.swift */; };
+		0570B44E2A8F42AA00E8E40F /* AddPCReplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B44D2A8F42AA00E8E40F /* AddPCReplaceView.swift */; };
+		0570B4502A8F43FB00E8E40F /* AddPCCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0570B44F2A8F43FB00E8E40F /* AddPCCompleteView.swift */; };
 		05AEE73D2A8E9DAC00F9DAD5 /* PCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */; };
 		05AEE73F2A8E9F8A00F9DAD5 /* PCInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE73E2A8E9F8A00F9DAD5 /* PCInventoryView.swift */; };
 		05AEE7432A8E9FDD00F9DAD5 /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE7422A8E9FDD00F9DAD5 /* StatView.swift */; };
@@ -33,6 +43,9 @@
 		05AEE7622A8EBF3300F9DAD5 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE7612A8EBF3300F9DAD5 /* CloseButton.swift */; };
 		05AEE7642A8EC06300F9DAD5 /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE7632A8EC06300F9DAD5 /* ButtonLabel.swift */; };
 		05AEE7662A8EC18E00F9DAD5 /* HeaderCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE7652A8EC18E00F9DAD5 /* HeaderCaption.swift */; };
+		05AEE7692A8EC3CE00F9DAD5 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE7682A8EC3CE00F9DAD5 /* GetStartedView.swift */; };
+		05AEE76B2A8EC45400F9DAD5 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE76A2A8EC45400F9DAD5 /* AddUserView.swift */; };
+		05AEE76D2A8EC52100F9DAD5 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AEE76C2A8EC52100F9DAD5 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +55,16 @@
 		055BD9F52A8DB4FC009CC0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055BD9F82A8DB4FC009CC0B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055BDA072A8DB822009CC0B0 /* PC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC.swift; sourceTree = "<group>"; };
+		0570B4372A8EC9C300E8E40F /* AddSNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSNView.swift; sourceTree = "<group>"; };
+		0570B43F2A8ED6C100E8E40F /* PCSheetHeaderAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCSheetHeaderAdd.swift; sourceTree = "<group>"; };
+		0570B4412A8F3E2700E8E40F /* PCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCType.swift; sourceTree = "<group>"; };
+		0570B4432A8F3ECA00E8E40F /* AddPCTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPCTypeView.swift; sourceTree = "<group>"; };
+		0570B4452A8F3FF700E8E40F /* AddPCLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPCLocationView.swift; sourceTree = "<group>"; };
+		0570B4472A8F407200E8E40F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0570B4492A8F419900E8E40F /* AddPCStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPCStatusView.swift; sourceTree = "<group>"; };
+		0570B44B2A8F41FC00E8E40F /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		0570B44D2A8F42AA00E8E40F /* AddPCReplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPCReplaceView.swift; sourceTree = "<group>"; };
+		0570B44F2A8F43FB00E8E40F /* AddPCCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPCCompleteView.swift; sourceTree = "<group>"; };
 		05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCManager.swift; sourceTree = "<group>"; };
 		05AEE73E2A8E9F8A00F9DAD5 /* PCInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCInventoryView.swift; sourceTree = "<group>"; };
 		05AEE7422A8E9FDD00F9DAD5 /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
@@ -61,6 +84,9 @@
 		05AEE7612A8EBF3300F9DAD5 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		05AEE7632A8EC06300F9DAD5 /* ButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
 		05AEE7652A8EC18E00F9DAD5 /* HeaderCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCaption.swift; sourceTree = "<group>"; };
+		05AEE7682A8EC3CE00F9DAD5 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		05AEE76A2A8EC45400F9DAD5 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		05AEE76C2A8EC52100F9DAD5 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +128,7 @@
 				05AEE75B2A8EBE7600F9DAD5 /* PCDetailView.swift */,
 				05AEE75D2A8EBEBC00F9DAD5 /* DeleteView.swift */,
 				055BD9F52A8DB4FC009CC0B0 /* Assets.xcassets */,
+				05AEE7672A8EC3C400F9DAD5 /* AddPC */,
 				05AEE7412A8E9FBB00F9DAD5 /* MiniViews */,
 				05AEE7402A8E9FA900F9DAD5 /* NavBar */,
 				05AEE7442A8EA01B00F9DAD5 /* DataFunctions */,
@@ -123,6 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				055BDA072A8DB822009CC0B0 /* PC.swift */,
+				0570B4412A8F3E2700E8E40F /* PCType.swift */,
+				0570B4472A8F407200E8E40F /* Location.swift */,
+				0570B44B2A8F41FC00E8E40F /* Status.swift */,
 				05AEE73C2A8E9DAC00F9DAD5 /* PCManager.swift */,
 			);
 			path = Structs;
@@ -149,8 +179,10 @@
 				05AEE7632A8EC06300F9DAD5 /* ButtonLabel.swift */,
 				05AEE7592A8EBD4B00F9DAD5 /* DetailItem.swift */,
 				05AEE75F2A8EBF1500F9DAD5 /* PCSheetHeader.swift */,
+				0570B43F2A8ED6C100E8E40F /* PCSheetHeaderAdd.swift */,
 				05AEE7612A8EBF3300F9DAD5 /* CloseButton.swift */,
 				05AEE7652A8EC18E00F9DAD5 /* HeaderCaption.swift */,
+				05AEE76C2A8EC52100F9DAD5 /* TextFieldView.swift */,
 			);
 			path = MiniViews;
 			sourceTree = "<group>";
@@ -161,6 +193,21 @@
 				05AEE7452A8EA02500F9DAD5 /* Date.swift */,
 			);
 			path = DataFunctions;
+			sourceTree = "<group>";
+		};
+		05AEE7672A8EC3C400F9DAD5 /* AddPC */ = {
+			isa = PBXGroup;
+			children = (
+				05AEE7682A8EC3CE00F9DAD5 /* GetStartedView.swift */,
+				05AEE76A2A8EC45400F9DAD5 /* AddUserView.swift */,
+				0570B4372A8EC9C300E8E40F /* AddSNView.swift */,
+				0570B4432A8F3ECA00E8E40F /* AddPCTypeView.swift */,
+				0570B4452A8F3FF700E8E40F /* AddPCLocationView.swift */,
+				0570B4492A8F419900E8E40F /* AddPCStatusView.swift */,
+				0570B44D2A8F42AA00E8E40F /* AddPCReplaceView.swift */,
+				0570B44F2A8F43FB00E8E40F /* AddPCCompleteView.swift */,
+			);
+			path = AddPC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +290,17 @@
 			files = (
 				05AEE7432A8E9FDD00F9DAD5 /* StatView.swift in Sources */,
 				05AEE73D2A8E9DAC00F9DAD5 /* PCManager.swift in Sources */,
+				05AEE76D2A8EC52100F9DAD5 /* TextFieldView.swift in Sources */,
+				0570B4422A8F3E2700E8E40F /* PCType.swift in Sources */,
 				05AEE74E2A8EA2C400F9DAD5 /* GradientView.swift in Sources */,
+				05AEE7692A8EC3CE00F9DAD5 /* GetStartedView.swift in Sources */,
 				05AEE7462A8EA02500F9DAD5 /* Date.swift in Sources */,
+				0570B4442A8F3ECA00E8E40F /* AddPCTypeView.swift in Sources */,
+				05AEE76B2A8EC45400F9DAD5 /* AddUserView.swift in Sources */,
+				0570B4402A8ED6C100E8E40F /* PCSheetHeaderAdd.swift in Sources */,
 				05AEE73F2A8E9F8A00F9DAD5 /* PCInventoryView.swift in Sources */,
+				0570B44C2A8F41FC00E8E40F /* Status.swift in Sources */,
+				0570B44E2A8F42AA00E8E40F /* AddPCReplaceView.swift in Sources */,
 				05AEE74C2A8EA25300F9DAD5 /* NavBarView.swift in Sources */,
 				05AEE7522A8EA7CC00F9DAD5 /* NavBarContainerNavigationView.swift in Sources */,
 				05AEE7662A8EC18E00F9DAD5 /* HeaderCaption.swift in Sources */,
@@ -257,8 +312,13 @@
 				055BD9F22A8DB4FC009CC0B0 /* PCInventoryApp.swift in Sources */,
 				055BDA082A8DB822009CC0B0 /* PC.swift in Sources */,
 				05AEE75A2A8EBD4B00F9DAD5 /* DetailItem.swift in Sources */,
+				0570B4482A8F407200E8E40F /* Location.swift in Sources */,
 				05AEE7582A8EB99900F9DAD5 /* IconTextView.swift in Sources */,
+				0570B4502A8F43FB00E8E40F /* AddPCCompleteView.swift in Sources */,
+				0570B44A2A8F419900E8E40F /* AddPCStatusView.swift in Sources */,
+				0570B4382A8EC9C300E8E40F /* AddSNView.swift in Sources */,
 				05AEE7642A8EC06300F9DAD5 /* ButtonLabel.swift in Sources */,
+				0570B4462A8F3FF700E8E40F /* AddPCLocationView.swift in Sources */,
 				05AEE75E2A8EBEBC00F9DAD5 /* DeleteView.swift in Sources */,
 				05AEE75C2A8EBE7600F9DAD5 /* PCDetailView.swift in Sources */,
 				05AEE7502A8EA4AC00F9DAD5 /* NavBarContainerView.swift in Sources */,

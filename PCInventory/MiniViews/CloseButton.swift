@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// x button on top right in sheets
+
 struct CloseButton: View {
     var body: some View {
         ZStack {

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// view for each item in the PCDetailView
+
 struct DetailItem: View {
     
     @State var itemIcon: String
