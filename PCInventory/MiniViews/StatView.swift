@@ -42,7 +42,8 @@ struct StatView: View {
 }
 
 struct StatView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        StatView(statTitle: "PC Migration", statProgress: 35, statUnit: "migrated")
+        StatView(statTitle: "PC Migration", statProgress: 1, statUnit: "migrated")
     }
 }

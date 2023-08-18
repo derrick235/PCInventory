@@ -19,6 +19,7 @@ struct PCInventoryView: View {
                     
                     StatView(statTitle: "PC Migration", statProgress: 35, statUnit: " migrated")
                         .environmentObject(pcManager)
+
                     StatView(statTitle: "Active Users", statProgress: 82, statUnit: " active")
                         .environmentObject(pcManager)
                     
